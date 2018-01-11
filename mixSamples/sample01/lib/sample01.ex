@@ -4,8 +4,10 @@ defmodule Sample01 do
 #    2
 #  end
 
-  def sumlist([head|tail]) do
-    head
+  #def sumlist([head|tail]) do
+  #  head
+  def sumlist(a) do
+    Enum.sum(a)
   end
 
 end
